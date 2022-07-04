@@ -1,0 +1,123 @@
+body {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: black;
+	background-image: url("background.jpg")
+}
+h1 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  font-family: "Lucida Console";
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+.button {
+  background-image: url("OIP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  font-size: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.buttonLEFT {
+  background-image: url("OIP.jpg");
+  background-size: cover;
+  border-radius: 15px 0px 0px 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonLEFT:hover {
+  font-size: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.buttonMIDDLE {
+  background-image: url("OIP.jpg");
+  background-size: cover;
+  border-radius: 0px 0px 0px 0px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonMIDDLE:hover {
+  font-size: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.buttonRIGHT {
+  background-image: url("OIP.jpg");
+  background-size: cover;
+  border-radius: 0px 15px 15px 0px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonRIGHT:hover {
+  font-size: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+img {
+	border-radius: 15px;
+}
+
+
+div {
+	border-radius: 15px;
+	padding: 1px;
+	border: none);
+	background: rgba(255, 255, 255, 0.50);
+	margin: 5%;
+}
+
+
+.divBUTTON {
+	border-radius: 15px;
+	padding: 1px;
+	border: none);
+	background: rgba(255, 255, 255, 0.50);
+	margin: 5%;
+}
+
+
+.divBUTTON:hover {
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  padding: 50px;
+}
